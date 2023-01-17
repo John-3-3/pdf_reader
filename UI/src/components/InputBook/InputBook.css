@@ -1,0 +1,82 @@
+.inputbook {
+    background-color: #5a5151d3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.inputbook .close-button{
+    font-size: 30px;
+    font-weight: bolder;
+    height: 35px;
+    width: 35px;
+    color: #000000;
+    border-radius: 4px;
+    background-color: #FF4500;
+    border: none;
+    position: absolute;
+    top: 16px;
+    right: 56px;
+}
+.inputbook .close-button:hover{
+    cursor: pointer;
+}
+.inputbook .formulary{
+    border: solid black 4px;
+    border-radius: 4px;
+    background-color:  #FF4500;
+    width: 500px;
+    padding: 20px;
+    height: 450px;
+}
+.inputbook  h1{
+    text-transform: uppercase;
+    color: white;
+}
+.inputbook .formulary  {
+    display: flex;
+    flex-wrap: wrap;
+}
+.inputbook .formulary  input{
+    width:100%;
+    padding: 12px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    margin-bottom: 12px;
+}
+.inputbook .formulary .DatePicker{
+    width:92%;
+    height: 35px;
+}
+.inputbook .formulary  input[type='submit']{
+    width: 100%;
+    background-color: #4CAF50;
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    margin: 8px 0;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.inputbook .formulary input[type='submit']:hover{
+    background-color: green;
+    color: white;
+}
+
+.inputbook .formulary  label{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}

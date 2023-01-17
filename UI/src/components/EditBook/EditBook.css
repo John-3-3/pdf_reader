@@ -1,0 +1,72 @@
+.editebook{
+    background-color: #5a5151d3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.editebook .close-button{
+    font-size: 30px;
+    font-weight: bolder;
+    height: 35px;
+    width: 35px;
+    color: #000000;
+    border-radius: 4px;
+    background-color: #FF4500;
+    border: none;
+    position: absolute;
+    top: 16px;
+    right: 56px;
+}
+.editebook .formulary{
+    border: solid black 4px;
+    border-radius: 4px;
+    background-color:  #FF4500;
+    width: 500px;
+    padding: 20px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.editbook .formulary  input{
+    width:100%;
+    padding: 12px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    margin-bottom: 12px;
+}
+.editbook .formulary .DatePicker{
+    width:92%;
+    height: 35px;
+}
+.editbook .formulary  input[type='submit']{
+    width: 100%;
+    background-color: #4CAF50;
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    margin: 8px 0;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.editbook .formulary input[type='submit']:hover{
+    background-color: green;
+    color: white;
+}
+.editbook .formulary  label{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
